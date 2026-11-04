@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BuildCon | Services</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+<header class="navbar" id="navbar">
+  <a class="logo" href="index.html">??? Build<span>Con</span></a>
+  <nav class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="services.html" class="active">Services</a>
+    <a href="projects.html">Projects</a>
+    <a href="index.html#about">About</a>
+    <a href="contact.html">Contact</a>
+    <a class="quote-btn" href="contact.html">Get Quote</a>
+  </nav>
+  <div class="hamburger" id="hamburger">&#9776;</div>
+</header>
+
+<section class="page-hero"><h1>Our Services</h1><p>End-to-end construction solutions</p></section>
+
+<div class="filter-bar">
+  <button class="filter-btn active" data-filter="all">All</button>
+  <button class="filter-btn" data-filter="residential">Residential</button>
+  <button class="filter-btn" data-filter="commercial">Commercial</button>
+  <button class="filter-btn" data-filter="renovation">Renovation</button>
+</div>
+
+<section class="services-grid">
+  <div class="svc-card" data-cat="residential" data-aos="fade-up"><img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600" alt=""><div class="svc-body"><h3>Home Construction</h3><p>Starting ₹1800/sqft</p><button class="btn btn-primary">Learn More</button></div></div>
+  <div class="svc-card" data-cat="residential" data-aos="fade-up" data-aos-delay="100"><img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600" alt=""><div class="svc-body"><h3>Interior Design</h3><p>Starting ₹2.5L</p><button class="btn btn-primary">Learn More</button></div></div>
+  <div class="svc-card" data-cat="renovation" data-aos="fade-up" data-aos-delay="200"><img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=600" alt=""><div class="svc-body"><h3>Renovation</h3><p>Starting ₹500/sqft</p><button class="btn btn-primary">Learn More</button></div></div>
+  <div class="svc-card" data-cat="residential" data-aos="fade-up"><img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600" alt=""><div class="svc-body"><h3>Architecture Planning</h3><p>Starting ₹50K</p><button class="btn btn-primary">Learn More</button></div></div>
+  <div class="svc-card" data-cat="commercial" data-aos="fade-up" data-aos-delay="100"><img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600" alt=""><div class="svc-body"><h3>Commercial Building</h3><p>Starting ₹2200/sqft</p><button class="btn btn-primary">Learn More</button></div></div>
+  <div class="svc-card" data-cat="commercial" data-aos="fade-up" data-aos-delay="200"><img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=600" alt=""><div class="svc-body"><h3>Road & Bridge</h3><p>Custom quote</p><button class="btn btn-primary">Learn More</button></div></div>
+</section>
+
+<footer class="footer">
+  <div class="footer-grid">
+    <div><h3>BuildCon</h3><p>Building dreams across India.</p></div>
+    <div><h4>Quick Links</h4><a href="index.html">Home</a><a href="services.html">Services</a><a href="projects.html">Projects</a><a href="contact.html">Contact</a></div>
+    <div><h4>Services</h4><a href="services.html">Home Construction</a><a href="services.html">Renovation</a><a href="services.html">Interior Design</a></div>
+    <div><h4>Contact</h4><p>+91 98765 43210</p><p>buildcon@gmail.com</p><p>Chennai, India</p></div>
+  </div>
+  <p class="copy">&copy; 2026 BuildCon. All rights reserved.</p>
+</footer>
+
+<div id="chatbot-container" class="chatbot-container">
+  <div class="chatbot-header">BuildCon Assistant</div>
+  <div id="chatbot-messages" class="chatbot-messages"></div>
+  <div class="chatbot-input"><textarea id="chatbot-input" placeholder="Type your message..."></textarea><button id="chatbot-send" class="button">Send</button></div>
+</div>
+<button id="chatbot-toggle" class="chatbot-toggle">🏠</button>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>AOS.init();</script>
+<script src="script.js"></script>
+</body>
+</html>
